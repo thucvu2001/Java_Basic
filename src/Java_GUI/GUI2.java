@@ -8,17 +8,19 @@ public class GUI2 {
     public static void main(String[] args) {
         JTextField jtf = new JTextField(); // co the them noi dung vao dau ()
         jtf.setText("JAVA_GUI"); // noi dung ban dau, co the thay doi
-        jtf.setBounds(100, 100, 300, 30);
+        jtf.setBounds(150, 100, 300, 30);
 
         JLabel jbl = new JLabel("Nhap so: "); // nhan~
         jbl.setBounds(60, 100, 100, 30);
 
         JButton btn = new JButton("Click");
-        btn.setBounds(100, 150, 100, 30);
+        btn.setBounds(150, 150, 100, 30);
         btn.addActionListener(new AbstractAction() { // moi lan an button se thuc hien cau lenh ben trong
             @Override
             public void actionPerformed(ActionEvent e) {
-                jtf.setText("Ban vua nhan vao button");
+                jtf.setText("Ban vua nhan vao button"); // an nut thi jtf se hien thi
+                String tmp = jtf.getText();
+                System.out.println(tmp);
             }
         });
 
