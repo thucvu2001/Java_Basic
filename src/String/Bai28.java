@@ -16,7 +16,7 @@ public class Bai28 {
             if (Character.isDigit(s.charAt(i))) {
                 num += s.charAt(i);
             } else {
-                while(num.length() > 1 && num.charAt(0) == '0'){
+                while(num.length() > 1 && num.charAt(0) == '0'){ // xoa cac ki tu 0 o dau
                     num = num.replaceFirst("0","");
                 }
                 arr.add(num);
