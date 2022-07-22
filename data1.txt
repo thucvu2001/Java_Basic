@@ -1,0 +1,5 @@
+Nguyen van a;20;5.5
+Nguyen van b;21;6.5
+Nguyen van c;22;7.5
+Nguyen van d;23;8.5
+Nguyen van e;24;9.5

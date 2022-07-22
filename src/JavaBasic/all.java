@@ -7,13 +7,11 @@ import java.util.TreeSet;
 public class all {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        Set<Integer> se = new TreeSet<>();
-        int[] a = new int[n];
-        for(int i = 0;i<n;i++){
-            a[i] = sc.nextInt();
-            se.add(a[i]);
+        String s = sc.nextLine();
+        if(s.isBlank() == false){
+            System.out.println("khong phai null");
+        } else {
+            System.out.println("no la null");
         }
-        System.out.println(se);
     }
 }
